@@ -1,6 +1,5 @@
----
 - hosts: gp1
- tasks:
+  tasks:
    - name: Install Jenkins
      shell: sudo yum install jenkins -y
 
